@@ -1,0 +1,25 @@
+/* I was much quicker on laying out the html file, see how we do here */
+/* Responsive page styles universal */
+html {
+   font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+         /* Company Header */
+.company {
+  background-color: cadetblue;
+  color: white;
+}
