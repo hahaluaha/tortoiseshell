@@ -203,3 +203,45 @@ header {
   padding: 0.5rem 1.25rem;
   max-width: 10rem;
 }
+
+.info .title {
+  width: 100%;
+  max-width: none;
+  margin-right: 0;
+  text-align: center;
+}
+
+.info p {
+  padding: 1rem;
+  font-size: .77rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .info {
+    width: 100%;
+  }
+}
+
+      /* Footer Section aaaaggghhhh */
+
+footer  {
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width; 500px) {
+  footer {
+    justify-content: center;
+  }
+  footer div {
+    display: none;
+  }
+}
