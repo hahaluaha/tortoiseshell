@@ -20,13 +20,19 @@ body {
 }
 
          /* Company Header */
-.header {
+header {
   height: 30rem;
   padding-top: 1rem;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.title {
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+  font-size: 1rem;
 }
 
 nav {
@@ -47,6 +53,7 @@ nav img {
   height: 1.5rem;
   margin-left: 2rem;
   margin-right: 1rem;
+  margin-top: 1.5rem;
 }
 
 nav ul {
@@ -55,7 +62,16 @@ nav ul {
 
 nav li {
   display: inline;
-  padding: 0 1rem;
+  padding: 5rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu  {
+  display: inline;
+  justify-content: space-between;
+  text-align: right;
+  padding-bottom: 1rem 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .mobile-menu {
@@ -78,7 +94,7 @@ header .flex {
 
 .main-banner {
   display: inline-block;
-  padding: 1.5rem 5rem;
+  padding: 5rem 1.5rem;
   margin-top: 10rem;
   margin-right: 2rem;
   background-color: white;
@@ -105,6 +121,7 @@ nav.container {
 
 .main-banner h1 {
   font-size: 1.33rem;
+  padding: .5rem 1rem;
 }
 
 @media only screen and (max-width: 700px) {
